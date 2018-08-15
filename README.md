@@ -2,7 +2,12 @@
 
 ![counter](img/counter.png)
 
-Here my small script which I run with cron on a daily basis on a raspberry Pi to track the progress of my PhD thesis written in LaTeX, saved in a git repo on Overleaf.com .
+Here my small script which I run with cron on a daily basis on a raspberry Pi to track the progress of my PhD thesis written in LaTeX. The thesis is saved on Overleaf.com.
+
+# What do I need?
+- Document written in LaTeX saved in a git repo. The scripts must be able pull from the Git repo. 
+- Unix server (Raspberry pi for example)
+- Free account on [thingspeak.com](www.thingspeak.com)
 
 # Features
   - Pulls latest TeX files from a git repository (like Overleaf or GitHub or...)
