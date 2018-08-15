@@ -6,7 +6,7 @@ Here my small script which I run with cron on a daily basis on a raspberry Pi to
 
 # Features
   - Pulls latest TeX files from a git repository (like Overleaf or GitHub or...)
-  - Counts the words in the LaTeX document and pushes the value to thingspeak.com
+  - Counts the words in the LaTeX document and pushes the value to [thingspeak.com](www.thingspeak.com)
   - On thingspeak.com you can see your daily progress and even make it public
   - Saves more detailed analysis results into a log file in the same folder as the script
 
